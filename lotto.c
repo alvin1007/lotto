@@ -4,9 +4,10 @@
 
 int main()
 {
-	int lotto_num[23], i, random = 0, usr_lotto[23], cnt_true = 0;
+	int i, random = 0;
 	while (1)
 	{
+		int usr_lotto[23] = { 0 }, lotto_num[23] = { 0 }, cnt_true = 0;
 		srand(time(NULL));
 		for (i = 0; i < 23; i++)
 		{
